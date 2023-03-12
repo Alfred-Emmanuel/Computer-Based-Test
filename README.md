@@ -1,6 +1,6 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Note that this project is still under development, the score that is being shown on the page is for testing purposes only and it will be removed when the project is finished, anything that isn't working as it should is still under development.
 
 ## Available Scripts
 
