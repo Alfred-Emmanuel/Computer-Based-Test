@@ -28,16 +28,16 @@ function CandidateDetails(props) {
             <div className='candidateDetails'>
 
                 {/* This contains the image of the candidate  */}
-                <div className='passport'>
+                {/* <div className='passport'>
                     <img src={props.image}/>
-                </div>
+                </div> */}
 
                     {/* This contains the numbers associated to the candidate  */}
                 <div>
                     <h3 className='matricNumber'>Matric Num:</h3>
                     <p>210811093</p> <br />
                     <h3>Name:</h3>
-                    <p>Brilliant Kid  </p> <br />
+                    <p>Alfred Emmanuel</p> <br />
                     <h3>Extra Num</h3>
                     <p>122345</p>
                 </div>

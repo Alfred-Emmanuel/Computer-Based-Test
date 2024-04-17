@@ -75,7 +75,7 @@ function QuestionBody(props){
       </button>
 
       {/* {props.currentQuestion === Questions.length - 1 &&*/ <button className='button_slide submitBtn'>Submit</button>}
-      <h1>Score: {score}</h1>
+      {/* <h1>Score: {score}</h1> */}
       </form>
     );
   };
