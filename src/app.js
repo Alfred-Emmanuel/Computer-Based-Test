@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react';
+import React, { useState } from 'react';
 import Navbar from "./Componennts/navbar"
 import QuestionBody from './Componennts/questionBody';
 import CandidateDetails from './Componennts/candidateDetails';
@@ -36,13 +36,13 @@ function App() {
                     setSelectedQuestion={setSelectedQuestion}
                 />
                 <CandidateDetails 
-                image = {Questions[currentQuestion].img}
-                selectedOption = {selectedOption}
-                setSelectedOption = {setSelectedOption}
-                setCurrentQuestion={setCurrentQuestion} 
-                selectedQuestion={selectedQuestion}
-                setSelectedQuestion={setSelectedQuestion}
-                currentQuestion = {currentQuestion}
+                    image = {Questions[currentQuestion].img}
+                    selectedOption = {selectedOption}
+                    setSelectedOption = {setSelectedOption}
+                    setCurrentQuestion={setCurrentQuestion} 
+                    selectedQuestion={selectedQuestion}
+                    setSelectedQuestion={setSelectedQuestion}
+                    currentQuestion = {currentQuestion}
                 />
             </div>
             {/* <Footer 

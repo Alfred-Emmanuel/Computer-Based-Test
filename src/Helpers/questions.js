@@ -1,5 +1,4 @@
-export default
-[
+const questions = [
     {
         question: "What is the full form of DBMS?",
         options: [
@@ -67,5 +66,6 @@ export default
         id: 5,
         img: "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.healthline.com%2Fhealth%2Fbeauty-skin-care%2Fhow-to-apply-a-face-mask-correctly&psig=AOvVaw2Ovxp6gOKlNFbBkwuk0dYb&ust=1675883314502000&source=images&cd=vfe&ved=0CBAQjRxqFwoTCIC6xoiOhP0CFQAAAAAdAAAAABAa"
     },
-    
 ]
+
+export default questions

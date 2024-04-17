@@ -1,4 +1,4 @@
-import React, { Component, useState, useEffect } from 'react';
+import React, { useState, useEffect } from 'react';
 import Questions from '../Helpers/questions'
 
 function QuestionBody(props){
@@ -9,7 +9,7 @@ function QuestionBody(props){
         if (selectedOptionIndex === Questions[props.currentQuestion].answer) {
           setScore(score + 1);
         }
-      }, [props.selectedOption]);
+      }, [props.selectedOption, props.currentQuestion, score]);
 
 
     const selectedOptionIndex = props.selectedOption[props.currentQuestion] || -1;
